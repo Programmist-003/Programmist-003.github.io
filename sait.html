@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title>1-й сайт</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main-bg">
+	<h1 class="about-h">Наш первый сайт</h1>
+	<div class="main-block">
+	<div class="main-block-left">
+		<nav class="wrap-menu">
+			<div class="nav-item">
+				<a class="nav-link" href="#">Главная</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="#">Портфолио</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="#">О нас</a>
+			</div>
+			 <div>
+            <h3 style="color: blue">Мы в соц.сетях</h3> 
+            <ul>
+            <li><a href="https://vk.com/idso550a11" target="_blank" title="Перейти на мою страницу ВК">Мы в ВК</a></li>
+            <li><a href="https://vk.com/crazymihuil1124" target="_blank" title="Перейти на мою страницу ВК">Мы в ВК</a></li>
+            <li><a href="https://ok.ru/" target="_blank">Мы в ОК</a> </li>
+            <li><a href="#">Мы в FB</a> </li>
+            </ul>   
+        </div>
+		</nav>
+	</div>
+	<div class="main-block-center">
+		<p> Здравствуйте, дорогие гости этого сайта!<br> 
+       Мы компания "СайтоДелы" <br></p>
+       <div class="center"></div>
+</div>
+	<div class="main-block-right">
+		<div class="my-form"> <section>
+    <h2 class="section-title">Заказать у нас сайт</h2>
+    <form action="order.php" method="post">
+        <div>
+    <label> Имя клиента
+        <input type="text" name="client_name" placeholder="Введите имя">
+    </label>   
+     </div>
+        <div>
+            <label>
+                <span>Введите почту</span>
+            <input type="text"name="client_email" placeholder="Введите email"> 
+        </label>        
+         </div>
+            
+        <div>
+             <label> 
+                    <span>Дополнительные возможности</span>
+                    <input type="checkbox" name="extra" value="adaptive">   
+                    <br><lu>Адаптивность
+                    <input type="checkbox" name="extra" value="hosting" checked></lu> 
+                    <br><lu>Установка на хостинг
+                    <input type="checkbox" name="extra" value="support"></lu> 
+                    <br><lu>Дальнейшая поддержка
+                    <input type="checkbox" name="extra" value="admin"> </lu>
+                        <br>Уствновка админ-панели
+                  <input type="checkbox" name="extra" value="admin"> 
+            </label>
+        </div>
+        <div>
+            <label> 
+                <span>Тип сайта</span>
+                <select name="type" >
+                    <option value="eshop">Интернет-магазин</option> 
+                    <option value="landing">Лэндинг</option> 
+                    <option value="card">Сайт-визитка</option> 
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Приложите эскиз</span>
+                <input type="file" name="file">
+            </label>
+        </div> 
+        <div>
+            <label> 
+                
+                <textarea name="comment" cols="30" rows="10" maxlength="100"></textarea><br><span>Ваш комментарий</span>
+            </label>
+        </div>
+              <div>
+                  <input type="reset" value="Сброс">
+                    <button name="submit">Отправить</button>
+                  
+        </div>
+        
+       </form>  
+    </section> </div>
+	</div>
+	</div>
+
+	<!-- Верхняя картинка -->
+	<footer>
+		<div class="contact">
+           <div>Город: Кострома</div> 
+           <div>Телефон:8-800-555-35-35</div> 
+           </div> 
+	</footer>
+</body>
+</html>
